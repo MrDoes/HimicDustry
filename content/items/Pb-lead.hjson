@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Lead oxide (PbO)",
+"description": "Used in lead-acid batteries.",
+ "color": "655175",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

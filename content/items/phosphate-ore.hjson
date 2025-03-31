@@ -1,0 +1,12 @@
+{
+ name: "Phosphate ore"
+description: "Can be smelted into phosphorus."
+ color: 866116
+ explosiveness: 0f
+ flammability: 0f
+ radioactivity: 0f
+ hardness: 4
+ charge: 1
+ cost: 0.1f
+ alwaysUnlocked: false
+}

@@ -1,0 +1,12 @@
+{
+ name: "Nafto"
+ description: "???"
+ color: FFFFC9
+ flammability: 0.4
+ gas: false
+ temperature: 0
+ heatCapacity: 0
+ viscosity: 0.9
+ explosiveness: 0
+}
+

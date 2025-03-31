@@ -1,0 +1,12 @@
+{
+ name: "Isopropanol"
+ description: "???"
+ color: A561D5
+ flammability: 0
+ gas: false
+ temperature: 0
+ heatCapacity: 0
+ viscosity: 0.5
+ explosiveness: 0.1
+}
+

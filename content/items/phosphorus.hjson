@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Phosphorus (P)",
+"description": "Used to create hexafluorophosphoric acid.",
+ "color": "D7BA80",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

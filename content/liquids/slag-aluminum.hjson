@@ -1,0 +1,12 @@
+{
+ name: "Molten aluminum"
+ description: "???"
+ color: 2FF3C9
+ flammability: 0
+ gas: false
+ temperature: 0.9
+ heatCapacity: 0.7
+ viscosity: 0.6
+ explosiveness: 0
+}
+

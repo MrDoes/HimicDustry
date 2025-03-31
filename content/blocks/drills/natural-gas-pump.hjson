@@ -1,0 +1,28 @@
+type: Fracker
+  name: "Natural gas pump"
+  description: "A better oil extractor that runs more efficiently."
+  health: 590
+  result: natural-gas
+  pumpAmount: 0.35
+  baseEfficiency: 0
+  itemUseTime: 60
+  size: 2
+  requirements: [
+    copper/220
+    lead/190
+    graphite/210
+    silicon/120
+    thorium/160
+    plastanium/80
+  ]
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+  itemCapacity: 15
+  liquidCapacity: 50
+  attribute: oil
+  consumes: {
+    power: 6
+  }
+  category: production
+  research: ground-crusher

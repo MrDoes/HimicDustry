@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Item Container",
+"description": "Used to store oxides and other powdered substances. Can be used many times.",
+ "color": "E4E4E4",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

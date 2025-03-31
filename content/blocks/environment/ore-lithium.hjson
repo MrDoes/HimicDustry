@@ -1,0 +1,5 @@
+type: "OreBlock"
+itemDrop: "lithium"
+oreDefault: true
+oreScale: 18
+oreThreshold: 0.828

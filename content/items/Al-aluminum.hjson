@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Aluminum oxide (AlO)",
+"description": "Used to create aluminum.",
+ "color": "4E4E4E",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

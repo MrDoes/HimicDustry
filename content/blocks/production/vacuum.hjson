@@ -1,0 +1,39 @@
+  type: multicraft.MultiCrafter
+buildCostMultiplier: 0.1
+name: "Vacuum"
+hasPower: true
+menu: Detailed
+hasItems: true
+hasLiquids: true
+recipes: [
+{
+input: {
+fluids: [water/1]
+items: [
+him-lithium/2
+him-item-container/1
+]
+power: 2.5
+}
+    output:{
+fluids: [hydrogen/1]
+items: [him-lithium-hydroxide/1]
+}
+craftTime: 125
+    }
+]
+
+size: 3
+liquidCapacity: 36
+ "itemCapacity": 30
+category: crafting
+requirements: [
+surge-alloy/60
+titanium/45
+silicon/25
+]
+envDisabled: 16
+research: {
+parent: surge-smelter
+planet: serpulo
+}

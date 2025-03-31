@@ -1,0 +1,91 @@
+  type: multicraft.MultiCrafter
+buildCostMultiplier: 0.1
+name: "Reactor"
+menu: Detailed
+hasPower: true
+hasItems: true
+hasLiquids: true
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+   type: DrawRegion
+   suffix: "-bottom"
+   }
+  {
+	 type: DrawBlurSpin
+  suffix: "-spinner"
+  SpinSprite: true //braver12243648
+//SpinSprite:  "reactor-rotator.png"
+  rotateSpeed: 15.4
+  blurThresh: 5.7
+  Blur: "reactor-rotator.png"
+	}
+   {
+   type: DrawRegion
+   suffix: "-default"
+   }
+	 {
+   type: DrawRegion
+   suffix: "-top"
+   }
+  ]
+ }         
+recipes: [
+{
+input: {
+fluids: [him-nafto/1]
+power: 2.5
+}
+    output:{
+fluids: [him-ethylene/1]
+}
+craftTime: 125
+    }
+	{
+input: {
+fluids: [him-nafto/1]
+power: 2.5
+}
+    output:{
+fluids: [him-propylene/1]
+}
+craftTime: 125
+    }
+{
+input: {
+fluids: [him-ethylene/1]
+power: 4
+}
+    output:{
+items: [him-polyethylene/1]
+}
+craftTime: 175
+    }
+	{
+input: {
+ items: [him-lithium-hydroxide/1]
+ fluids: [him-hexafluorophosphoric-acid/1]
+
+power: 1
+}
+    output:{
+  items: [him-lithium-salt/1]
+}
+craftTime: 75
+    }
+]
+size: 4
+liquidCapacity: 36
+ itemCapacity: 30
+category: crafting
+requirements: [
+surge-alloy/55
+titanium/45
+silicon/190
+]
+envDisabled: 16
+research: {
+parent: surge-smelter
+planet: serpulo
+}

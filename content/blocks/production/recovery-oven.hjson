@@ -1,0 +1,103 @@
+ type: multicraft.MultiCrafter
+buildCostMultiplier: 0.1
+name: "Recovery oven"
+hasPower: true
+menu: Detailed
+hasItems: true
+hasLiquids: true
+drawer: {
+  type: DrawMulti
+  drawers: [
+   {
+   type: DrawDefault
+   }
+   {
+    type: DrawFlame
+	suffix: "-top"
+    flameRadius: 3.5         
+    flameRadiusIn: 1.5
+    flameRadiusScl: 3 
+    flameRadiusMag: 1
+    flameRadiusInMag: 0.7 
+	flameColor: FFFD3F
+   }
+  ]
+ }         
+recipes: [
+{
+input: {
+items: [him-Cu-copper/1]
+power: 1
+}
+    output:{
+
+items: [copper/1
+        him-item-container/1]
+}
+craftTime: 50
+    }
+	{
+input: {
+items: [
+him-cathode-aluminum/1
+him-anode-fluorine/1
+]
+power: 1
+}
+    output:{
+
+items: [him-cathode/1
+        him-anode/1
+		him-aluminum/1]
+		fluids:[him-fluorine/1]
+}
+craftTime: 50
+    }
+	{
+input: {
+items: [him-Si-silicon/1]
+power: 1
+}
+    output:{
+items: [silicon/1
+        him-item-container/1]
+}
+craftTime: 50
+    }
+{
+input: {
+items: [him-Pb-lead/1]
+power: 1
+}
+    output:{
+items: [lead/1
+        him-item-container/1]
+}
+craftTime: 75
+    }
+	{
+input: {
+items: [him-Al-aluminum/1]
+power: 1
+}
+    output:{
+items: [him-aluminum/1
+        him-item-container/1]
+}
+craftTime: 75
+    }
+]
+
+size: 2
+liquidCapacity: 36
+ "itemCapacity": 10
+category: crafting
+requirements: [
+titanium/45
+silicon/25
+]
+envDisabled: 16
+research: {
+parent: surge-smelter
+planet: serpulo
+}

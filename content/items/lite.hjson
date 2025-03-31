@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Cryolite (Na3AlF6)",
+"description": "Используется в качестве флюса в процессе электролитического получения алюминия.",
+ "color": "EB9825",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 3,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

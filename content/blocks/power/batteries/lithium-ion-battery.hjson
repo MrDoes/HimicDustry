@@ -1,0 +1,34 @@
+"type": "battery",
+"name": "Lithium-ion battery"
+health: 1000
+consumes: {
+powerBuffered: 200000
+}
+size: 2
+fullLightColor: CFFFCC
+emptyLightColor: 3DFF33
+baseExplosiveness: 13
+requirements: [
+copper/280
+lead/30
+silicon/95
+lithium-ion-battery/10
+]
+category: power
+research: {
+parent: battery
+objectives: [battery-large,
+{
+type: SectorComplete
+preset: tarFields
+}
+]
+}
+destroyEffect: {
+type: ExplosionEffect
+sparkLen: 5
+sparkStroke: 3
+sparkRad: 30
+sparks: 50
+smokes: 0
+}

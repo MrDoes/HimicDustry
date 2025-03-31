@@ -1,0 +1,12 @@
+{
+ name: "Anode"
+ description: "Used to create batteries and as a surface for restoration."
+ color: D0C48E
+ explosiveness: 0f
+ flammability: 0f
+ radioactivity: 0f
+ hardness: 4
+ charge: 1
+ cost: 0.1f
+ alwaysUnlocked: false
+}

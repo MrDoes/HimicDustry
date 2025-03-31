@@ -1,0 +1,12 @@
+{
+ name: "Полиэтилен (C2H4)"
+description: "Пластик."
+"color": "FAF5EC",
+ explosiveness: 0f
+ flammability: 0f
+ radioactivity: 0f
+ hardness: 4
+ charge: 0
+ cost: 0.1f
+ alwaysUnlocked: false
+}

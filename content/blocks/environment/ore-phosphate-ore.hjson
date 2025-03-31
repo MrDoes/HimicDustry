@@ -1,0 +1,5 @@
+type: "OreBlock"
+itemDrop: "phosphate-ore"
+oreDefault: true
+oreScale: 12
+oreThreshold: 0.899

@@ -1,0 +1,5 @@
+type: "OreBlock"
+itemDrop: "titanomagnetite"
+oreDefault: true
+oreScale: 15
+oreThreshold: 0.886

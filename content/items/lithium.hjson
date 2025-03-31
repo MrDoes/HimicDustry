@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Lithium (Li)",
+"description": "It is widely used in the production of lithium-ion and lithium-polymer batteries.",
+ "color": "E6DCCC",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 2,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

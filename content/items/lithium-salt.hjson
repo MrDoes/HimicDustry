@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Lithium salt (LiPF6)",
+"description": "It is used in the production of lithium-ion and lithium-polymer batteries.",
+ "color": "E1EDEE",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

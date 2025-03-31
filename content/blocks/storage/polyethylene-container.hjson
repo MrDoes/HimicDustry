@@ -1,0 +1,15 @@
+name: Polyetylene container
+description: "???"
+requirements: [
+silicon/200
+polyethylene/145
+surge-alloy/5
+]
+health: 600
+itemCapacity: 1200
+category: effect
+size: 2
+research: {
+parent: surge-smelter
+planet: serpulo
+}

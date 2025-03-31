@@ -1,0 +1,12 @@
+{
+ name: "Ethylene"
+ description: "???"
+color: EE7171
+ flammability: 1
+ gas: true
+ temperature: 0
+ heatCapacity: 0
+ viscosity: 0.1
+ explosiveness: 0.3
+}
+

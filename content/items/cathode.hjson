@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Cathode",
+"description": "Used to create batteries and as a surface for restoration.",
+ "color": "7C7A71",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

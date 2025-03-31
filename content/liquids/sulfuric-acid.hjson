@@ -1,0 +1,12 @@
+{
+ name: "Sulfuric acid"
+ description: "/"
+ color: E4E946
+ flammability: 0
+ gas: false
+ temperature: 0
+ heatCapacity: 0
+ viscosity: 0.1
+ explosiveness: 0
+}
+

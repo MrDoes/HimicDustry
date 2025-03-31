@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Lithium hydroxide (LiOH)",
+"description": "Used to create cast salt.",
+ "color": "B5DEE1",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

@@ -1,0 +1,12 @@
+{
+ "displayName": "HimicDustry",
+"name": "him",
+ "displayName": "HimicDustry",
+ "author": "MrDoes",
+"description": "[white]Adds a lots of ethylene things![red]WARNING ITS BETA!",
+ "version": "1.0",
+"dependencies": ["multi-crafter"]
+ "minGameVersion": "136",
+ "subtitle": "3.85"
+ "dependencies": []
+}

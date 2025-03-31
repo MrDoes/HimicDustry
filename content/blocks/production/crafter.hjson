@@ -1,0 +1,51 @@
+  type: multicraft.MultiCrafter
+buildCostMultiplier: 0.1
+name: "Crafter"
+menu: Detailed
+hasPower: true
+hasItems: true
+hasLiquids: true
+recipes: [
+{
+input: {
+items: [
+silicon/1
+metaglass/2]
+power: 2.5
+}
+    output:{
+items: [him-item-container/1]
+}
+craftTime: 125
+    }
+	{
+input: {
+fluids: [him-electrolyte/1]
+items: [
+him-cathode/1
+him-anode/1
+titanium/3
+him-polyethylene/2
+]
+power: 2.5
+}
+    output:{
+items: [him-lithium-ion-battery/1]
+}
+craftTime: 125
+    }
+]
+size: 2
+liquidCapacity: 36
+ itemCapacity: 30
+category: crafting
+requirements: [
+silicon/60
+titanium/45
+thorium/25
+]
+envDisabled: 16
+research: {
+parent: surge-smelter
+planet: serpulo
+}

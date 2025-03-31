@@ -1,0 +1,46 @@
+  type: multicraft.MultiCrafter
+buildCostMultiplier: 0.1
+name: "Laborotory"
+hasPower: true
+hasItems: true
+hasLiquids: true
+menu: Detailed
+recipes: [
+{
+input: {
+fluids: [him-natural-gas/1]
+power: 1
+}
+    output:{
+items: [him-sulfur/1]
+fluids: [water/1]
+}
+craftTime: 75
+    }
+	{
+input: {
+fluids: [him-fluorine/1]
+items: [him-phosphorus/1]
+power: 1
+}
+    output:{
+fluids: [him-hexafluorophosphoric-acid/1]
+}
+craftTime: 75
+    }
+]
+
+size: 3
+liquidCapacity: 36
+ "itemCapacity": 30
+category: crafting
+requirements: [
+lead/120
+thorium/40
+spore-pod/30
+]
+envDisabled: 16
+research: {
+parent: surge-smelter
+planet: serpulo
+}

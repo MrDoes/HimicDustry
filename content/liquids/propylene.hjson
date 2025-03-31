@@ -1,0 +1,12 @@
+{
+ name: "Propylene"
+ description: "???"
+color: 288F34
+ flammability: 1
+ gas: true
+ temperature: 0
+ heatCapacity: 0
+ viscosity: 0.1
+ explosiveness: 0.6
+}
+

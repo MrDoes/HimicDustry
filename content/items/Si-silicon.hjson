@@ -1,0 +1,12 @@
+{
+ name: "Silicon oxide (SiO2)"
+description: "Used for creation."
+ color: C1BAAD
+ explosiveness: 0f
+ flammability: 0f
+ radioactivity: 0f
+ hardness: 4
+ charge: 1
+ cost: 0.1f
+ alwaysUnlocked: false
+}

@@ -1,0 +1,21 @@
+name: acid decomposition (1)
+damage: 2.6
+healthMultiplier: 0.85
+speedMultiplier: 0.75
+effect: {
+type: MultiEffect
+effects: [
+ {
+type: ParticleEffect
+sizeFrom: 0
+sizeTo: 5
+lifetime: 100
+particles: 5
+cone: 360
+length: 2
+colorFrom: 2FA051
+colorTo: 2FA051
+}
+]
+}
+color: 39DB3E

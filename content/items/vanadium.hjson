@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Vanadium"
+"description": "Item Container",
+ "color": "E6DCCC",
+ "explosiveness":1000000f,
+ "flammability": 1000000000f,
+ "radioactivity": 0.01f,
+ "hardness": 4,
+ "cost":   1f,
+ "alwaysUnlocked": false
+}

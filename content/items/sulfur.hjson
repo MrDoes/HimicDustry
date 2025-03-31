@@ -1,0 +1,12 @@
+{
+ name: "Sulfur (S)"
+description: "Used to create *nothing yet*."
+ color: F5ED48
+ explosiveness: 0f
+ flammability: 0f
+ radioactivity: 1f
+ hardness: 4
+ charge: 1
+ cost: 0.1f
+ alwaysUnlocked: false
+}

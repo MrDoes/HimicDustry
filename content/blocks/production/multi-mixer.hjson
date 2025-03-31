@@ -1,0 +1,70 @@
+  type: multicraft.MultiCrafter
+buildCostMultiplier: 0.1
+name: "Multi mixer"
+hasPower: true
+hasItems: true
+menu: Detailed
+hasLiquids: true
+recipes: [
+{
+input: {
+fluids: [him-organic-solvent/1]
+items: [him-lithium-salt/1]
+power: 1
+}
+    output:{
+fluids: [him-electrolyte/1]
+}
+craftTime: 75
+    }
+	{
+input: {
+fluids: [oil/1]
+power: 1
+}
+    output:{
+fluids: [him-nafto/1]
+}
+craftTime: 75
+    }
+	{
+input: {
+fluids: [
+him-propylene/1
+water/1
+]
+power: 1
+}
+    output:{
+fluids: [him-isopropanol/1]
+}
+craftTime: 75
+    }
+	{
+input: {
+fluids: [
+him-isopropanol/1
+]
+items: [him-Cu-copper]
+power: 1
+}
+    output:{
+fluids: [him-organic-solvent/1]
+}
+craftTime: 75
+    }
+]
+size: 3
+liquidCapacity: 36
+ "itemCapacity": 30
+category: crafting
+requirements: [
+lead/45
+silicon/150
+titanium/45
+]
+envDisabled: 16
+research: {
+parent: surge-smelter
+planet: serpulo
+}
