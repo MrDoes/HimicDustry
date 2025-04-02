@@ -8,27 +8,66 @@ hasLiquids: true
 drawer: {
   type: DrawMulti
   drawers: [
+  	  {
+type: DrawRegion
+suffix: -bottom
+}
+{
+"type": "DrawArcSmelt"
+"circleStroke": 1,
+"particleLen": 2.8
+},
+ {
+        type: DrawLiquidTile
+        drawLiquid: him-nafto
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-ethylene
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-propylene
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-hexafluorophosphoric-acid
+      }
   {
-   type: DrawRegion
-   suffix: "-bottom"
-   }
+        type: DrawDefault
+      }
   {
-	 type: DrawBlurSpin
-  suffix: "-spinner"
-  SpinSprite: true //braver12243648
-//SpinSprite:  "reactor-rotator.png"
-  rotateSpeed: 15.4
-  blurThresh: 5.7
-  Blur: "reactor-rotator.png"
-	}
-   {
-   type: DrawRegion
-   suffix: "-default"
-   }
-	 {
-   type: DrawRegion
-   suffix: "-top"
-   }
+        type: DrawRegion
+		suffix: -spinner-l
+		y: 9
+		x: 9
+		spinSprite: true
+		rotateSpeed: -10.3
+      }
+	  {
+        type: DrawRegion
+		suffix: -spinner-m
+		y: -9
+		x: 9
+		spinSprite: true
+		rotateSpeed: -10.3
+      }
+	  {
+        type: DrawRegion
+		suffix: -spinner-m
+		y: 9
+		x: -9
+		spinSprite: true
+		rotateSpeed: 10.3
+      }
+	  {
+        type: DrawRegion
+		suffix: -spinner-d
+		y: -9
+		x: -9
+		spinSprite: true
+		rotateSpeed: 10.3
+      }
   ]
  }         
 recipes: [
