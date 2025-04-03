@@ -44,7 +44,7 @@ suffix: -bottom
         type: DrawRegion
 		suffix: -spinner
 		spinSprite: true
-		rotateSpeed: 1.3
+		rotateSpeed: 2.1
       }
 	  {
         type: DrawDefault
