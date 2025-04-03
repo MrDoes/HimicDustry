@@ -5,6 +5,53 @@ hasPower: true
 hasItems: true
 menu: Detailed
 hasLiquids: true
+drawer: {
+  type: DrawMulti
+ drawers: [
+	  {
+type: DrawRegion
+suffix: -bottom
+} 
+ {
+        type: DrawLiquidTile
+        drawLiquid: oil
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-organic-solvent
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-electrolyte
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-nafto
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-propylene
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-isopropanol
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: water
+      }
+	  {
+        type: DrawRegion
+		suffix: -spinner
+		spinSprite: true
+		rotateSpeed: 1.3
+      }
+	  {
+        type: DrawDefault
+      }
+    ]
+  }        
+
 recipes: [
 {
 input: {
