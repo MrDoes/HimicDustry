@@ -1,7 +1,7 @@
 {
  name: "Molten aluminum"
  description: "???"
- color: 2FF3C9
+ color: d1702a
  flammability: 0
  gas: false
  temperature: 0.9

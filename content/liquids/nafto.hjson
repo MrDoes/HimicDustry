@@ -1,7 +1,7 @@
 {
  name: "Nafto"
  description: "???"
- color: FFFFC9
+ color: 615b56
  flammability: 0.4
  gas: false
  temperature: 0
