@@ -5,6 +5,34 @@ hasPower: true
 hasItems: true
 hasLiquids: true
 menu: Detailed
+drawer: {
+  type: DrawMulti
+drawers: [
+	{
+type: DrawRegion
+suffix: -bottom
+}
+ {
+        type: DrawLiquidTile
+        drawLiquid: him-fluorine
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-natural-gas
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: water
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-hexafluorophosphoric-acid
+      }
+  {
+        type: DrawDefault
+      }
+    ]
+	}
 recipes: [
 {
 input: {
