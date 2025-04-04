@@ -1,0 +1,65 @@
+  type: multicraft.MultiCrafter
+buildCostMultiplier: 0.1
+name: "Battery charger"
+menu: Detailed
+hasPower: true
+hasItems: true
+hasLiquids: true
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+		type: DrawDefault
+  }
+  {
+		type: DrawArcSmelt
+		circleStroke: 1
+		particleLen: 10
+		particleLife: 1
+		particleRad: 1
+		drawCenter: false
+		flameColor: 63c6ff
+		flameRadiusScl: 1
+  }
+  {
+        type: DrawRegion
+		suffix: -spinner
+		y: 0
+		x: 0
+		spinSprite: true
+		rotateSpeed: 3
+      }
+  ]
+ } 
+recipes: [
+	{
+input: {
+fluids: [him-electrolyte/1]
+items: [
+him-cathode/1
+him-anode/1
+titanium/3
+him-polyethylene/2
+]
+power: 2.5
+}
+    output:{
+items: [him-lithium-ion-battery/1]
+}
+craftTime: 125
+    }
+]
+size: 3
+liquidCapacity: 36
+ itemCapacity: 30
+category: crafting
+requirements: [
+silicon/60
+titanium/45
+thorium/25
+]
+envDisabled: 16
+research: {
+parent: surge-smelter
+planet: serpulo
+}
