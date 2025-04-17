@@ -6,16 +6,6 @@ hasPower: true
 hasItems: true
 hasLiquids: true
 recipes: [
-{
-input: {
-items: [coal/1]
-power: 2.5
-}
-    output:{
-items: [him-carbon/1]
-}
-craftTime: 125
-    }
 	{
 input: {
 items: [him-Si-silicon/1

@@ -29,8 +29,19 @@ suffix: -bottom
 recipes: [
 {
 input: {
+items: [copper/1]
+fluids: [water/0.2]
+power: 1
+}
+    output:{
+items: [him-copper-foil/5]
+}
+craftTime: 75
+    }
+{
+input: {
 items: [him-Cu-copper/1
-him-carbon/1]
+coal/1]
 fluids: [water/0.2]
 power: 2.5
 }
@@ -53,17 +64,6 @@ power: 4
 items: [him-anode/1]
 }
 craftTime: 175
-    }
-{
-input: {
-items: [copper/1]
-fluids: [water/0.2]
-power: 1
-}
-    output:{
-items: [him-copper-foil/5]
-}
-craftTime: 75
     }
 ]
 

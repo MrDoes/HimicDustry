@@ -1,12 +1,12 @@
 {
- name: "Сarbon (C)"
-description: "Used as fuel."
- color: 2E2C23
+ name: "Lithium-ion battery 0%"
+description: "Used to create *nothing yet*."
+ color: F5ED48
  explosiveness: 0f
  flammability: 0f
  radioactivity: 0f
  hardness: 4
- charge: 1
+ charge: 0
  cost: 0.1f
  alwaysUnlocked: false
 }

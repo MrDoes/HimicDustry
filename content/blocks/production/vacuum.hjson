@@ -5,6 +5,26 @@ hasPower: true
 menu: Detailed
 hasItems: true
 hasLiquids: true
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+type: DrawRegion
+suffix: -bottom
+}
+{
+        type: DrawLiquidTile
+        drawLiquid: water
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: hydrogen
+      }
+   {
+   type: DrawDefault
+   }
+  ]
+ }      
 recipes: [
 {
 input: {

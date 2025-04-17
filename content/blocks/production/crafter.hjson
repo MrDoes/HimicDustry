@@ -18,22 +18,6 @@ items: [him-item-container/1]
 }
 craftTime: 125
     }
-	{
-input: {
-fluids: [him-electrolyte/1]
-items: [
-him-cathode/1
-him-anode/1
-titanium/3
-him-polyethylene/2
-]
-power: 2.5
-}
-    output:{
-items: [him-lithium-ion-battery/1]
-}
-craftTime: 125
-    }
 ]
 size: 2
 liquidCapacity: 36
