@@ -1,0 +1,13 @@
+ name: Large aluminum wall
+ description: A Large wall aluminum wall.
+ type: Wall
+  health: 3600
+  absorbLasers: false
+  size: 3
+  requirements: [
+    him-aluminum/54
+  ]
+  research: {  
+    parent: him-aluminum-wall-big
+  }  
+  category: defense

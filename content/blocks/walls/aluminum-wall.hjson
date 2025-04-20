@@ -1,0 +1,13 @@
+ name: Aluminum wall
+ description: A small wall aluminum wall.
+ type: Wall
+  health: 400
+  absorbLasers: false
+  size: 1
+  requirements: [
+    him-aluminum/6
+  ]
+  research: {  
+    parent: titanium-wall
+  }  
+  category: defense
