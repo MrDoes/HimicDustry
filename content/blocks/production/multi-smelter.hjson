@@ -5,11 +5,44 @@ menu: Detailed
 hasPower: true
 hasItems: true
 hasLiquids: true
+drawer: {
+  type: DrawMulti
+  drawers: [
+  	  {
+type: DrawRegion
+suffix: -bottom
+}
+ {
+        type: DrawLiquidTile
+        drawLiquid: him-slag-aluminum
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: slag
+      }
+	  {
+        type: DrawLiquidTile
+        drawLiquid: him-fluorine
+      }
+	  {
+type: DrawRegion
+suffix: -bottom-top
+}
+{
+        type: DrawDefault
+      }
+	  {
+type: DrawArcSmelt
+circleStroke: 1
+particleLen: 2.8
+}
+  ]
+ }
 recipes: [
 	{
 input: {
 items: [him-Si-silicon/1
- him-carbon/1
+ coal/1
  him-phosphate-ore/1]
 power: 2.5
 }
@@ -27,16 +60,18 @@ items: [
  him-cathode/1
  him-anode/1
  ]
- fluids: [slag-aluminum/0.3]
+ fluids: [him-slag-aluminum/0.3]
 power: 2.5
 }
     output:{
 items: [
-him-cathode-aluminum/1
-him-anode-fluorine/1
+him-cathode/1
+        him-anode/1
+		him-aluminum/1]
+		fluids:[him-fluorine/1
 ]
 }
-craftTime: 125
+craftTime: 350
     }
 	{
 	input: {
@@ -46,7 +81,7 @@ items: [
 power: 2.5
 }
     output:{
-fluids: [slag-aluminum/0.3]
+fluids: [him-slag-aluminum/0.3]
 }
 craftTime: 125
     }

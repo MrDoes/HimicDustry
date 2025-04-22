@@ -38,23 +38,6 @@ craftTime: 50
     }
 	{
 input: {
-items: [
-him-cathode-aluminum/1
-him-anode-fluorine/1
-]
-power: 1
-}
-    output:{
-
-items: [him-cathode/1
-        him-anode/1
-		him-aluminum/1]
-		fluids:[him-fluorine/1]
-}
-craftTime: 50
-    }
-	{
-input: {
 items: [him-Si-silicon/1]
 power: 1
 }
