@@ -6,7 +6,7 @@ type: Fracker
   pumpAmount: 0.35
   baseEfficiency: 0
   itemUseTime: 60
-  size: 2
+  size: 3
   requirements: [
     copper/220
     lead/190
